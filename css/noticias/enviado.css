@@ -1,0 +1,164 @@
+/* -----------------------------------------------------------------------contacto enviado ----------------------------------------------------------- */
+div.registro {
+	left:30%;
+	top:5%;
+	float:left;
+	position:fixed;
+	background-color:#0C4C8A;
+	width:40%;
+	height:auto;
+	border-radius:40px;
+	float:center;
+	overflow:auto;
+}
+div.registro::-webkit-scrollbar {
+  display: none;
+}
+div.titulo-reg {
+	float:left;
+	width:100%;
+	color:white;
+}
+div.titulo-reg h1{
+	text-align:center;
+}
+div.forn-reg {
+	float:left;
+	width:100%;
+	/* background-color:blue; */
+}
+div.reg-form-a {
+	/* background-color:pink; */
+	float:left;
+	width:98%;
+	padding-left:2%;
+	/* border-style:solid; */
+	overflow:none;
+}
+div.reg-text {
+	padding-right:1%;
+	float:left;
+	/* background-color:purple; */
+	width:40%;
+	color:white;
+}
+div.reg-input {
+	padding-top:10px;
+	padding-right:10%;
+	float:left;
+	width:40%;
+	height:20px;
+	/* background-color:yellow; */
+}
+div.enviar-cancelar {
+	width:100%;
+	height:100%;
+	float:left;
+	/* background-color:purple; */
+	padding-top:10px;
+	padding-bottom:10px;
+}
+div.submit {
+	width:40%;
+	float:left;
+	height:40px;
+	/* background-color:gray; */
+	padding-right:5%;
+	padding-left:5%;
+}
+div.cancelar {
+	/* background-color:red; */
+	width:40%;
+	float:left;
+	height:40px;
+	padding-right:5%;
+	padding-left:5%;
+}
+div.reg-input input {
+	width:100%;
+	height:100%;
+	outline:none;
+}
+div.gris {
+	top:0px;
+	float:left;
+	background-color:black;
+	position:fixed;
+	width:100%;
+	height:100%;
+	opacity:0.5;
+}
+div.reg-input-checkbox {
+	float:left;
+	color:white;
+	width:200px;
+}
+textarea {
+	background-image:url("../../imagenes/noticias/contacto.jpg");
+	font-family:arial;
+	border-radius:10px;
+	resize: none;
+}	
+input.button-1 {
+	width:90%;
+	height:100%;
+	border-radius:10px;
+	border-style:solid;
+	border-color:black;
+	background-color:#38A4A8;
+	color:white;
+	outline:none;
+}
+input.button-1:hover{
+	width:90%;
+	height:100%;
+	border-radius:10px;
+	border-color:black;
+	border-style:solid;
+	background-color:#345a99;
+	outline:none;
+}
+input.button-1:active {
+	width:90%;
+	height:100%;
+	border-radius:10px;
+	border-color:black;
+	border-style:solid;
+	border-color:white;
+	background-color:black;
+	outline:none;
+}
+input.button-2 {
+	width:90%;
+	height:100%;
+	float:right;
+	border-radius:10px;
+	border-style:solid;
+	border-color:black;
+	background-color:#38A4A8;
+	color:white;
+	outline:none;
+}
+input.button-2:hover {
+	width:90%;
+	height:100%;
+	float:right;
+	border-radius:10px;
+	border-color:black;
+	color:white;
+	border-style:solid;
+	background-color:#345a99;
+	outline:none;
+	
+}
+input.button-2:active {
+	width:90%;
+	height:100%;
+	float:right;
+	border-radius:10px;
+	border-style:solid;
+	border-color:black;
+	background-color:black;
+	outline:none;
+	border-color:white;
+}

@@ -1,0 +1,364 @@
+body {
+	background-image:url("../../imagenes/noticias/1.jpg");
+	font-family:arial;
+	color:white;
+}
+header {
+	/* background-color:pink; */
+	float:left;
+	width:100%;
+}	
+div.logo {
+	/* background-color:blue; */
+	float:left;
+	width:75%;
+	padding-left:25%;
+	
+}
+div.botones {
+	/*background-color:purple;*/
+	float:left;
+	width:100%;
+	
+}
+input.buttons {
+	width:20%;
+	height:30px;
+	float:left;
+	border:none;
+	outline:none;
+	border-bottom:2px;
+	border-bottom-style:solid;
+	background-color:black;
+	font-style:bold;
+	font-family:arial;
+}
+input.a:hover {
+	background-color:#29C827;
+	color:white;
+}
+
+input.a {
+	color:#29C827;
+}
+input.b:hover {
+	background-color:red;
+	color:white;
+}
+
+input.b {
+	color:red;
+}
+input.c {
+	background-color:#F6C30D;
+	color:white;
+}
+
+input.c:hover {
+	color:#F6C30D;
+	background-color:black;
+}
+input.d:hover {
+	background-color:#0DC1F6;
+	color:white;
+}
+
+input.d {
+	color:#0DC1F6;
+}
+input.e:hover {
+	background-color:#CA0DF6;
+	color:white;
+}
+input.e {
+	color:#CA0DF6;
+}
+input.home:hover {
+	color:white;
+	background-color:#38A4A8;
+}
+input.home {
+	background-color:black;
+	color:#38A4A8;
+}
+article {
+	/*background-color:green;*/
+	width:100%;
+	float:left;
+}
+.resumen {
+	font-size:40px;
+	font-family:Arial Black;
+	text-align:center;
+	width:100%;
+	float:left;	
+	/*background-color:gray;*/
+	margin-bottom:30px;
+	color:white;
+}
+div.texto-imagen-a {
+	background-color:#38A4A8;
+	float:left;	
+	margin-bottom:2%;
+	border-radius:10px;
+	color:white;
+	width:55%;
+	/*background-color:purple;*/
+	margin-left:16%;
+	margin-right:10%;
+	padding-right:5%;
+	padding-left:5%;
+	font-size:20px;
+	word-wrap:break-word;
+	padding-bottom:50px;       
+}
+.resumen {
+	font-size:40px;
+	font-family:Arial Black;
+	text-align:center;
+	width:100%;
+	float:left;	
+	/*background-color:gray;*/
+	margin-bottom:30px;
+	color:white;
+}
+img.bean {
+	padding:5%;
+	width:90%;
+}
+p.titulos-parrafo {
+	font-size:40px;
+	width:100%;
+	font-style:bold;
+	color:white;
+	font-family:Arial Black;
+}
+div.buton-cerrar {
+	width:100%;
+	background-color:red;
+	padding-left:25%;
+}
+input.buton-close {
+	height:30px;
+	float:left;
+	border:none;
+	outline:none;
+	border-bottom:2px;
+	border-bottom-style:solid;
+	background-color:black;
+	font-style:bold;
+	font-family:arial;
+	width:50%;
+	color:white;
+	border-radius:10px 10px 0px 0px;
+}
+input.buton-close:hover {
+	background-color:white;
+	color:black;
+}
+footer {
+	float:left;
+	width:100%;
+	margin-top:5%;
+}
+div.fotter-b{
+	width:100%;
+	text-align:center;
+	color:white;
+}
+div.fotter-a {
+	width:100%;
+	color:white;
+	
+}
+input.general {
+	width:25%;
+	background-color:#ffffff00;
+	color:white;
+	height:30px;
+	float:left;
+	border:none;
+	outline:none;
+	border-top:2px;
+	border-top-style:solid;
+	font-style:bold;
+	font-family:arial;
+}
+input.general:hover {
+	background-color:white;
+	color:black;
+	border-top-color:#38A4A8;
+}
+a:link { 
+	text-decoration:none;	
+} 
+a.bladimir {
+	color:red;
+}
+/* -----------------------------------------------------------------------contacto----------------------------------------------------------- */
+div.registro {
+	left:30%;
+	top:5%;
+	float:left;
+	position:fixed;
+	background-color:#0C4C8A;
+	width:40%;
+	height:500px;
+	border-radius:40px;
+	float:center;
+	overflow:auto;
+}
+div.registro::-webkit-scrollbar {
+  display: none;
+}
+div.titulo-reg {
+	float:left;
+	width:100%;
+	color:white;
+}
+div.titulo-reg h1{
+	text-align:center;
+}
+div.forn-reg {
+	float:left;
+	width:100%;
+	/* background-color:blue; */
+}
+div.reg-form-a {
+	/* background-color:pink; */
+	float:left;
+	width:98%;
+	padding-left:2%;
+	/* border-style:solid; */
+	overflow:none;
+}
+div.reg-text {
+	padding-right:1%;
+	float:left;
+	/* background-color:purple; */
+	width:40%;
+	color:white;
+}
+div.reg-input {
+	padding-top:10px;
+	padding-right:10%;
+	float:left;
+	width:40%;
+	height:20px;
+	/* background-color:yellow; */
+}
+div.enviar-cancelar {
+	width:100%;
+	height:100%;
+	float:left;
+	/* background-color:purple; */
+	padding-top:10px;
+	padding-bottom:10px;
+}
+div.submit {
+	width:40%;
+	float:left;
+	height:40px;
+	/* background-color:gray; */
+	padding-right:5%;
+	padding-left:5%;
+}
+div.cancelar {
+	/* background-color:red; */
+	width:40%;
+	float:left;
+	height:40px;
+	padding-right:5%;
+	padding-left:5%;
+}
+div.reg-input input {
+	width:100%;
+	height:100%;
+	outline:none;
+}
+div.gris {
+	top:0px;
+	float:left;
+	background-color:black;
+	position:fixed;
+	width:100%;
+	height:100%;
+	opacity:0.5;
+}
+div.reg-input-checkbox {
+	float:left;
+	color:white;
+	width:200px;
+}
+textarea {
+	background-image:url("../../imagenes/noticias/contacto.jpg");
+	font-family:arial;
+	border-radius:10px;
+	resize: none;
+}	
+input.button-1 {
+	width:90%;
+	height:100%;
+	border-radius:10px;
+	border-style:solid;
+	border-color:black;
+	background-color:#38A4A8;
+	color:white;
+	outline:none;
+}
+input.button-1:hover{
+	width:90%;
+	height:100%;
+	border-radius:10px;
+	border-color:black;
+	border-style:solid;
+	background-color:#345a99;
+	outline:none;
+}
+input.button-1:active {
+	width:90%;
+	height:100%;
+	border-radius:10px;
+	border-color:black;
+	border-style:solid;
+	border-color:white;
+	background-color:black;
+	outline:none;
+}
+input.button-2 {
+	width:90%;
+	height:100%;
+	float:right;
+	border-radius:10px;
+	border-style:solid;
+	border-color:black;
+	background-color:#38A4A8;
+	color:white;
+	outline:none;
+}
+input.button-2:hover {
+	width:90%;
+	height:100%;
+	float:right;
+	border-radius:10px;
+	border-color:black;
+	color:white;
+	border-style:solid;
+	background-color:#345a99;
+	outline:none;
+	
+}
+input.button-2:active {
+	width:90%;
+	height:100%;
+	float:right;
+	border-radius:10px;
+	border-style:solid;
+	border-color:black;
+	background-color:black;
+	outline:none;
+	border-color:white;
+}
+table.princi{
+	width:100%;
+}
