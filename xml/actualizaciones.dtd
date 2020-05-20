@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!ELEMENT versiones (os+)>
+<!ELEMENT os (version,nombre_codigo,numero_vercion,fecha_lanzamiento,nivel_api)>
+<!ELEMENT fecha_lanzamiento (dia,mes,anyo)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT anyo (#PCDATA)>
+<!ELEMENT version (#PCDATA)>
+<!ELEMENT nombre_codigo (#PCDATA)>
+<!ELEMENT numero_vercion (#PCDATA)>
+<!ELEMENT nivel_api (#PCDATA)>

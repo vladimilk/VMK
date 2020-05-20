@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs = "http://www.w3.org/2001/XMLSchema">
+  <xs:element name="versiones">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="os"  maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="os">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="version"  maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="version">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nombre_codigo" type="xs:string"/>
+        <xs:element name="numero_vercion" type="xs:string"/>
+        <xs:element ref="fecha_lanzamiento"/>
+        <xs:element name="nivel_api" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fecha_lanzamiento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="dia" type="xs:string"/>
+        <xs:element name="mes" type="xs:string"/>
+        <xs:element name="anyo" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
